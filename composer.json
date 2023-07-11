@@ -1,0 +1,13 @@
+{
+    "require": {
+        "phpmailer/phpmailer": "^6.8"
+    },
+    "scripts": {
+        "serve": "php -S 127.0.0.1:8000",
+        "test": [
+            "Composer\\Config::disableProcessTimeout",
+            "phpunit"
+        ]
+    }
+  
+}
